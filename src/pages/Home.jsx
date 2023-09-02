@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Home =()=>{
-    return <div>Home Page
-        <Link to="/starred">Go to Starred Page</Link>
+    return <div>
+        <Link to="/">Go to Home Page</Link>
     </div>
 }
 
