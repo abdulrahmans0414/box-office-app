@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
 
 const Starred =()=>{
-    return <div> <Link to="/starred">Go to Starred Page</Link></div>
-}
+    return (
+    <div>  Starred Page</div>
+
+)}
 
 export default Starred;
