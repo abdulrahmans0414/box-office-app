@@ -6,12 +6,7 @@ return(
     <div>
 
         <Navs />
-        <AppTitle 
-
-        // title="hi" 
-        // subtitle="dfskjflj"
-        />
-
+        <AppTitle  />
 
         <Outlet />
     </div>
