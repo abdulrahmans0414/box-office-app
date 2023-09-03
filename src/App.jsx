@@ -10,6 +10,7 @@ function App() {
     <Routes>
 
       <Route element={<MainLayout />}>
+        
       <Route path="/" element={<Home />} />
       <Route path="/starred" element={<Starred />} />
       
