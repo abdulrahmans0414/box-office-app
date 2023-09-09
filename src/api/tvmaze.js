@@ -13,3 +13,4 @@ const apiGet = async (queryString)=>{
 
 export const searchForShows =(query)=>apiGet(`/search/shows?q=${query}`)
 export const searchForPeople =(query)=>apiGet(`/search/people?q=${query}`)
+export const getShowById =(showId)=>apiGet(`/shows/${showId}`)
